@@ -32,6 +32,16 @@ A lightweight Chrome Extension that enhances Drupal.org issue pages with useful 
 
 ---
 
+### 🛠 GitLab MR Patch Composer
+
+- Detects GitLab merge requests in the issue fork block
+- Creates a table showing:
+  - MR number (e.g. `!8`)
+  - Patch download link (`.patch`)
+  - "Copy" button with Composer patch JSON
+
+---
+
 ## 🛠 Installation
 
 1. Clone or download the repository

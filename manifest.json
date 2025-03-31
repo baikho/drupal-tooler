@@ -23,7 +23,8 @@
         {
             "resources": [
                 "modules/composerPatchButton.js",
-                "modules/commentReplyButton.js"
+                "modules/commentReplyButton.js",
+                "modules/gitlabPatchFetcher.js"
             ],
             "matches": [
                 "<all_urls>"

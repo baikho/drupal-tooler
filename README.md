@@ -25,7 +25,7 @@ A lightweight Chrome Extension that enhances Drupal.org issue pages with useful 
 
 ---
 
-## 💬 Reply Button
+### 💬 Reply Button
 
 - Adds a 💬 "Reply" icon button to each comment on issue pages. When clicked:
 - Appends a permalink to the comment (e.g. `<a href="#comment-14937840">#13</a>`)

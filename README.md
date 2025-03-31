@@ -6,7 +6,8 @@
 [![Last Commit](https://img.shields.io/github/last-commit/baikho/drupal-tooler)](https://github.com/baikho/drupal-tooler/commits/1.x)
 [![Stars](https://img.shields.io/github/stars/baikho/drupal-tooler?style=social)](https://github.com/baikho/drupal-tooler/stargazers)
 
-A lightweight Chrome Extension that enhances Drupal.org issue pages with useful tools for developers.
+| ![Drupal Tooler Icon](https://github.com/user-attachments/assets/009154fc-8551-4a1b-b918-0b46b363930c) | A lightweight Chrome Extension that enhances Drupal.org issue pages with useful tools for developers. |
+|------------------------------------|------------------------------------------------------------------------|
 
 ---
 

@@ -42,6 +42,19 @@ A lightweight Chrome Extension that enhances Drupal.org issue pages with useful 
 
 ---
 
+### 👀 Inline Patch Previews
+
+Adds a "Preview" button next to each patch file on issue pages.
+
+- Expands a full-width row below the patch row
+- Fetches and displays patch contents inline
+- Adds syntax highlighting:
+  - ✅ Light green for added lines
+  - ❌ Light red for removed lines
+- Great for reviewing diffs without leaving the page
+
+---
+
 ## 🛠 Installation
 
 1. Clone or download the repository

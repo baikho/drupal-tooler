@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Drupal Tooler",
+  "version": "1.0.0",
+  "description": "Your Chrome companion for Drupal development and issue queue management.",
+  "permissions": ["clipboardWrite"],
+  "host_permissions": ["https://www.drupal.org/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.drupal.org/project/*/issues/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

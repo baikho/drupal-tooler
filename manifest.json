@@ -22,7 +22,8 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "modules/composerPatchButton.js"
+                "modules/composerPatchButton.js",
+                "modules/commentReplyButton.js"
             ],
             "matches": [
                 "<all_urls>"

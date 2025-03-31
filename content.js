@@ -1,10 +1,17 @@
 (async () => {
-    const url = chrome.runtime.getURL('modules/composerPatchButton.js');
-    const { addComposerPatchColumn } = await import(url);
+    const patchUrl = chrome.runtime.getURL('modules/composerPatchButton.js');
+    const replyUrl = chrome.runtime.getURL('modules/commentReplyButton.js');
+
+    const patchModule = await import(patchUrl);
+    const replyModule = await import(replyUrl);
 
     if (document.readyState === 'complete' || document.readyState === 'interactive') {
-        addComposerPatchColumn();
+        patchModule.addComposerPatchColumn();
+        replyModule.addReplyButtonsToComments();
     } else {
-        window.addEventListener('DOMContentLoaded', addComposerPatchColumn);
+        window.addEventListener('DOMContentLoaded', () => {
+            patchModule.addComposerPatchColumn();
+            replyModule.addReplyButtonsToComments();
+        });
     }
 })();

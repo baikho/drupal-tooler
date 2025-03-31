@@ -25,7 +25,7 @@ A lightweight Chrome Extension that enhances Drupal.org issue pages with useful 
 
 ---
 
-## 💬 Reply Button
+### 💬 Reply Button
 
 - Adds a 💬 "Reply" icon button to each comment on issue pages. When clicked:
 - Appends a permalink to the comment (e.g. `<a href="#comment-14937840">#13</a>`)
@@ -39,6 +39,19 @@ A lightweight Chrome Extension that enhances Drupal.org issue pages with useful 
   - MR number (e.g. `!8`)
   - Patch download link (`.patch`)
   - "Copy" button with Composer patch JSON
+
+---
+
+### 👀 Inline Patch Previews
+
+Adds a "Preview" button next to each patch file on issue pages.
+
+- Expands a full-width row below the patch row
+- Fetches and displays patch contents inline
+- Adds syntax highlighting:
+  - ✅ Light green for added lines
+  - ❌ Light red for removed lines
+- Great for reviewing diffs without leaving the page
 
 ---
 

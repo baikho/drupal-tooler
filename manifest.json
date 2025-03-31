@@ -24,7 +24,8 @@
             "resources": [
                 "modules/composerPatchButton.js",
                 "modules/commentReplyButton.js",
-                "modules/gitlabPatchFetcher.js"
+                "modules/gitlabPatchFetcher.js",
+                "modules/patchPreview.js"
             ],
             "matches": [
                 "<all_urls>"

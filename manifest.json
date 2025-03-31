@@ -28,6 +28,7 @@
                 "modules/composerPatchButton.js",
                 "modules/commentReplyButton.js",
                 "modules/gitlabPatchFetcher.js",
+                "modules/highlightOPComments.js",
                 "modules/patchPreview.js"
             ],
             "matches": [

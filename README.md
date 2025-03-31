@@ -56,6 +56,15 @@ Adds a "Preview" button next to each patch file on issue pages.
 
 ---
 
+### 🏷 OP Comment Badging
+
+Adds a small "OP" badge next to the username of the original poster on issue comments.
+
+- Makes it easy to identify the person who opened the issue
+- Clean, minimalist styling using Drupal brand color
+
+---
+
 ## 🛠 Installation
 
 1. Clone or download the repository

@@ -52,8 +52,7 @@ export function addGitLabMRPatchComposer() {
     const urlCell = document.createElement('td');
     const urlLink = document.createElement('a');
     urlLink.href = patchUrl;
-    urlLink.textContent = 'Download';
-    urlLink.target = '_blank';
+    urlLink.textContent = `${mrId}.patch`;
     urlCell.appendChild(urlLink);
     urlCell.style.padding = '4px';
     urlCell.style.borderLeft = '0';

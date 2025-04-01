@@ -6,7 +6,7 @@ export function addReplyButtonsToComments() {
     comments.forEach(comment => {
         if (comment.querySelector('.drupal-tooler-reply-btn')) return;
 
-        const bodyEl = comment.querySelector('.field-name-comment-body');
+        const bodyEl = comment.querySelector('.comment > .content');
         const permalinkEl = comment.querySelector('.permalink-wrapper a');
 
         if (!bodyEl || !permalinkEl) return;

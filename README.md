@@ -65,6 +65,12 @@ Adds a small "OP" badge next to the username of the original poster on issue com
 
 ---
 
+## 📸 Screenshots
+
+![Drupal Tooler](https://github.com/user-attachments/assets/9b232e4e-968a-4221-9895-b970f3f0e100)
+
+---
+
 ## 🛠 Installation
 
 1. Clone or download the repository

@@ -12,6 +12,10 @@
     "host_permissions": [
         "https://www.drupal.org/*"
     ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Drupal Tooler Settings"
+    },
     "content_scripts": [
         {
             "matches": [

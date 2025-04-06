@@ -16,14 +16,20 @@
         "default_popup": "popup.html",
         "default_title": "Drupal Tooler Settings"
     },
+    "background": {
+        "scripts": [
+            "browser-polyfill.js"
+        ]
+    },
     "content_scripts": [
         {
             "matches": [
                 "https://www.drupal.org/project/*/issues/*"
             ],
             "js": [
-                "content.js"
-            ]
+                "browser-polyfill.js", "content.js"
+            ],
+            "run_at": "document_start"
         }
     ],
     "web_accessible_resources": [

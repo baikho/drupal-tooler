@@ -1,12 +1,12 @@
 # Drupal Tooler
 
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-brightgreen?logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-brightgreen?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/drupal-tooler/lmkfjgfjbplgkgkgfmkiepadaajpenkn)
 [![Drupal.org](https://img.shields.io/badge/Drupal.org-Enhanced-blue?logo=drupal)](https://www.drupal.org)
 [![License: MIT](https://img.shields.io/github/license/baikho/drupal-tooler)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/baikho/drupal-tooler)](https://github.com/baikho/drupal-tooler/commits/1.x)
 [![Stars](https://img.shields.io/github/stars/baikho/drupal-tooler?style=social)](https://github.com/baikho/drupal-tooler/stargazers)
 
-| ![Drupal Tooler Icon](https://github.com/user-attachments/assets/009154fc-8551-4a1b-b918-0b46b363930c) | A lightweight Chrome Extension that enhances Drupal.org issue pages with useful tools for developers. |
+| ![Drupal Tooler Icon](https://github.com/user-attachments/assets/f190a29b-1eab-4007-9450-46f3245e0cc4) | A lightweight Chrome Extension that enhances Drupal.org issue pages with useful tools for developers. |
 |------------------------------------|------------------------------------------------------------------------|
 
 ---
@@ -72,6 +72,10 @@ Adds a small "OP" badge next to the username of the original poster on issue com
 ---
 
 ## 🛠 Installation
+
+Available on the [Chrome Web Store](https://chromewebstore.google.com/detail/drupal-tooler/lmkfjgfjbplgkgkgfmkiepadaajpenkn).
+
+Or install manually:
 
 1. Clone or download the repository
 2. Visit `chrome://extensions` in your browser

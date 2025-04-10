@@ -1,5 +1,7 @@
 export function addInlinePatchPreviews() {
-    const patchLinks = document.querySelectorAll('td.nodechanges-file-link a[href$=".patch"]');
+    const patchLinks = document.querySelectorAll(
+        'td.nodechanges-file-link a[href$=".patch"], td[name^="extended-file-field-table-filename"] a[href$=".patch"]'
+    );
 
     patchLinks.forEach(link => {
         if (link.closest('td').querySelector('.drupal-tooler-preview-btn')) return;

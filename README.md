@@ -1,7 +1,7 @@
 # Drupal Tooler
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-brightgreen?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/drupal-tooler/lmkfjgfjbplgkgkgfmkiepadaajpenkn)
-[![Drupal.org](https://img.shields.io/badge/Drupal.org-Enhanced-blue?logo=drupal)](https://www.drupal.org)
+[![Drupal.org](https://img.shields.io/badge/Drupal.org-Enhanced-blue?logo=drupal)](https://www.drupal.org/project/tooler)
 [![License: MIT](https://img.shields.io/github/license/baikho/drupal-tooler)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/baikho/drupal-tooler)](https://github.com/baikho/drupal-tooler/commits/1.x)
 [![Stars](https://img.shields.io/github/stars/baikho/drupal-tooler?style=social)](https://github.com/baikho/drupal-tooler/stargazers)

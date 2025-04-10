@@ -1,4 +1,3 @@
-
 export function highlightOPComments() {
     const commentBlocks = document.querySelectorAll('.comment, .indented, .comment-wrapper');
 
